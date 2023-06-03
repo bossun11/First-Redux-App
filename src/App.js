@@ -8,7 +8,7 @@ function App() {
   const dispatch = useDispatch();
 
   const handleIncrement = () => {
-    dispatch(increment());
+    dispatch(increment(7));
   };
 
   const handleDecrement = () => {
